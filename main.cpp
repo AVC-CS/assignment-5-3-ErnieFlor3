@@ -4,9 +4,9 @@ using   namespace       std;
 
 int main()
 {
-    int min, number;
+    int i, begin, end, sum=0 ;
 
 	// complete your code
   
-    cout << "The min value is " << min << endl;
+    cout << "The sum value is " << sum << endl;
 }
