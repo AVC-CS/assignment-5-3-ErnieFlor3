@@ -8,5 +8,5 @@ int main()
 
 	// complete your code
   
-    cout << "The sum value is " << sum << endl;
+    cout << "The sum of even values is " << sum << endl;
 }
