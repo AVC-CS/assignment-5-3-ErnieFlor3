@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "T1",
+      "setup": "",
+      "run": "g++ --std=c++17 main.cpp && ./a.out",
+      "input": "10 20",
+      "output": "[\\w,\\W]*90[\\w,\\W]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "T2",
+      "setup": "",
+      "run": " g++ --std=c++17 main.cpp && ./a.out",
+      "input": "50 100",
+      "output": "[\\w,\\W]*1950[\\w,\\W]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "I1",
+      "setup": "",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
+      "input": "5 10",
+      "output": "[\\w,\\W]*24[\\w,\\W]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "I2",
+      "setup": "",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
+      "input": "1 100",
+      "output": "[\\w,\\W]*2550[\\w,\\W]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
